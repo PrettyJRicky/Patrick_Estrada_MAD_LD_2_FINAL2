@@ -121,7 +121,7 @@ fun MovieRow(movie: Movie, onItemClick: (String) -> Unit = {}) {
                 .fillMaxWidth()
             ) {
                 Image(
-                    painter = painterResource(id = R.drawable.avatar2),
+                    painter = painterResource(id = R.drawable.avatar_wallpaper),
                     contentDescription = "Movie Poster",
                     contentScale = ContentScale.Crop
                 )
